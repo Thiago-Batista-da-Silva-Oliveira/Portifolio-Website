@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-size: 1.6rem;
+  line-height: 1.5;
+  background: #1d1d1d;
+  display: block;
+  min-width: 320px;
+  font-family: "Open Sans",sans-serif;
+  color: #fff;
+  /*padding-left: 13rem; */
+  /*overflow-y: hidden; */
+  overflow-x: hidden  
+}
+
+
+
+a{
+  text-decoration: none
+}
+
+/*.pages{
+  display: none;
+}*/
+

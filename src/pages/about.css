@@ -1,0 +1,110 @@
+.about{
+    padding-top: 130px;
+    padding-left: 150px;
+    height: 100vh;
+    overflow-x: hidden; 
+    
+}
+
+.about h1{
+    color: skyblue;
+}
+.about_container{
+    display: flex;
+    justify-content: space-between; 
+    align-items: start;
+    width: 70vw;
+    margin-top: 30px;
+    align-self: start;
+}
+
+.about_info{
+    display: flex;
+    flex-direction: column;
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+}
+
+.skills span{
+   /* display: flex;
+    align-items: center; */
+    margin-top: 10px
+}
+
+.bar{
+    width: 200px;
+    height: 10px;
+    background: #fff;
+    margin-left: 10px;
+}
+
+.js{
+    width: 55%;
+    background: rgb(212, 212, 2);
+    height: 100%;
+}
+
+.react{
+    width: 70%;
+    background: #61DBFB;
+    height: 100%;
+}
+
+.next{
+    width: 60%;
+    background: rgb(35, 35, 253);
+    height: 100%;
+}
+
+.ts{
+    width: 45%;
+    background: #3178c6;
+    height: 100%;
+}
+
+.html{
+    width: 70%;
+    background: orange;
+    height: 100%;
+}
+
+.css{
+    width: 70%;
+    background: blue;
+    height: 100%;
+}
+
+.fb{
+    width: 45%;
+    background: rgb(255, 166, 0);
+    height: 100%;
+}
+
+@media screen and (max-width:960px) {
+    .about{
+        padding-left: 100px;
+        padding-top: 100px;
+    }
+    .about_container{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .about_info span{
+        font-size: 20px;
+    }
+
+    .skills{
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width:720px) {
+    .about{
+        padding-left: 70px;
+        padding-top: 100px;
+    }
+}

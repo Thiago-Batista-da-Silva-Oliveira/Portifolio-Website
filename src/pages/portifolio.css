@@ -1,0 +1,178 @@
+
+
+.portifolio{
+    height: 100vh;
+  
+    display: flex;
+    justify-content: center;
+    
+  
+}
+
+
+
+.portifolio h1{
+    color: skyblue;
+    text-align: center;
+}
+
+.portifolio_my_sites img{
+ width: 450px;
+ object-fit:  contain;
+ transition: 0.2s;
+ 
+}
+
+.portifolio_my_sites a{
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.portifolio img:hover{
+    opacity: 0.7;
+}
+
+.portifolio_my_sites{
+    display: flex;
+    /*overflow: hidden; */
+    margin-left: 20px;
+}
+
+.portifolio_courses_experiences_sites img{
+ width: 450px;
+ object-fit:  contain;
+ transition: 0.2s;
+ overflow: hidden;
+}
+
+.portifolio_courses_experiences_sites{
+    display: flex;
+    /*overflow: hidden; */
+    margin-left: 20px;
+    
+}
+
+.portifolio_courses_experiences_sites a{
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.github_info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.github_info h2{
+   color: skyblue;
+}
+
+.github_info a{
+    text-decoration: none;
+    margin-left: 10px;
+    color: #FFF;
+}
+.portifolio_courses_experiences h1{
+    margin-top: 20px;
+}
+@media screen and (max-width:1500px){
+    .portifolio img{
+        width: 400px;
+    }
+}
+
+@media screen and (max-width:1300px){
+    .portifolio img{
+        width: 350px;
+    }
+    
+}
+
+@media screen and (max-width:1200px){
+    .portifolio img{
+        width: 325px;
+    }
+    .portifolio_my_sites{
+        display: flex;
+        /*overflow: hidden; */
+        margin-left: 0px;
+    }
+    
+    .portifolio_courses_experiences_sites{
+        display: flex;
+        /*overflow: hidden; */
+        margin-left: 0px;
+        
+    }
+
+    .portifolio h1{
+        font-size: 35px;
+        margin-top: 60px;
+    }
+    
+    
+}
+
+
+@media screen and (max-width:1100px){
+    .portifolio img{
+        width: 300px;
+    }
+    
+
+}
+
+@media screen and (max-width:960px){
+    .github_info h2{
+        color: skyblue;
+        font-size: 21;
+     }
+     
+     .github_info a{
+         text-decoration: none;
+         margin-left: 10px;
+         color: #FFF;
+         font-size: 17px
+     }
+     
+    .portifolio h1{
+        font-size: 23px;
+        margin-top: 30px
+    }
+    .portifolio img{
+        width: 350px;
+    }
+    .portifolio_my_sites{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .portifolio_courses_experiences_sites{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    } 
+    
+   
+    
+}
+
+@media screen and (max-width:550px){
+    .portifolio img{
+        width: 300px;
+    }
+
+    .portifolio{
+        margin-top: 50px;
+        margin-left: -15px;
+    }
+     
+    .github_info a{
+        text-decoration: none;
+        text-align: center;
+        
+    }
+    
+
+}

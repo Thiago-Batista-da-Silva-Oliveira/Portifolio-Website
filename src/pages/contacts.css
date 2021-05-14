@@ -1,0 +1,165 @@
+.contact-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    padding-left: 80px;
+    overflow-x:hidden;
+
+}
+
+
+
+.contact-container h1{
+    color: skyblue;
+    text-align: center;
+    
+}
+
+.contact-container h2{
+    color: skyblue;
+}
+.info{
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    width: 100vw;
+    margin-top: 30px;
+    position: relative;
+  
+   
+}
+
+.contatos{
+    display: flex;
+    flex-direction: column;
+   justify-content: flex-start;
+   align-self: start;
+   
+ 
+  
+}
+
+.contatos i{
+    margin-right: 10px;
+   
+   
+}
+
+.contatos span{
+    font-size: 22px;
+    margin-bottom: 20px
+}
+
+
+
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.card input{
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 10px;
+    width: 500px;
+    margin-bottom: 20px;
+    outline: none;
+   
+}
+
+.card textarea{
+    width: 500px;
+    height: 100px;
+    padding: 15px
+}
+
+
+.contact{
+    align-self: start;
+}
+[data-animeContact] {
+    opacity: 0;
+    transition: ease-in-out 0.3s
+}
+[data-animeContact = "left"] {
+    transform: translate3d(-50px,0 ,0 )
+}
+
+
+[data-animeContact].anime{
+    opacity: 1;
+    transform:  translate3d(0px, 0px, 0px);
+  }
+  @media screen and (max-width: 960px){
+    .contact-container{
+       height: 100%;   
+    }
+    .info{
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+        width: 100vw;
+        margin-top: 30px;
+       /* position: relative; */
+        flex-direction: column
+    }
+
+
+    .contatos{
+        margin-top: 30px; 
+        display: flex;
+        flex-direction: column;   
+        width: 500px;
+        justify-content: center;
+        align-self: center
+    }
+
+    .contatos span{
+        margin-top: 10px;
+    }
+  }
+
+  @media screen and (max-width: 720px){
+    .card input{
+        width: 400px;
+        margin-bottom: 20px;
+    }
+    
+    .card textarea{
+        width: 400px;
+        height: 100px;
+    }
+
+    .form{
+        margin-right: 85px;
+    }
+    .contact-container h1{
+        color: skyblue;
+        font-size: 40px;
+        margin-left: -75px;
+    }
+    
+  }
+  @media screen and (max-width: 475px){
+    .card input{
+        width: 300px;
+    }
+    
+    .card textarea{
+        width: 300px;
+    }
+
+    .contatos{
+        margin-left: 95px
+    }
+
+    .contatos span{
+        font-size: 18px;
+    }
+  }
